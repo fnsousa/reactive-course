@@ -20,7 +20,7 @@ public interface UserController {
     @PatchMapping("{id}")
     ResponseEntity<Mono<UserResponse>> update(@PathVariable String id, @RequestBody UserRequest request);
 
-    @GetMapping("{id}")
+    @DeleteMapping("{id}")
     ResponseEntity<Mono<Void>> delete(@PathVariable String id);
 
 }

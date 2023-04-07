@@ -1,6 +1,6 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://admin:admin@localhost:27017/mongo?retryWrites=true&w=majority
+      uri: mongodb://admin:admin@localhost:27017/admin?retryWrites=true&w=majority
   application:
     name: webflux-course
